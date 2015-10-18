@@ -1,0 +1,48 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gdcc.maketubo.activity.MenuActivity" 
+    android:background="@drawable/bg_menu">
+
+        <Button
+            android:id="@+id/btnesc"
+            android:layout_width="127dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="168dp"
+            android:layout_x="100dp"
+            android:layout_y="360dp"
+            android:background="@drawable/button"
+            android:text="退出" />
+
+        <Button
+            android:id="@+id/btnstr"
+            android:layout_width="127dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="168dp"
+            android:layout_x="100dp"
+            android:layout_y="240dp"
+            android:background="@drawable/button"
+            android:text="开始"
+            android:onClick="gameStart" />
+
+        <Button
+            android:id="@+id/btnrec"
+            android:layout_width="127dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="168dp"
+            android:layout_x="100dp"
+            android:layout_y="300dp"
+            android:background="@drawable/button"
+            android:text="排行榜" />
+
+        <Button
+            android:id="@+id/btnset"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_x="4dp"
+            android:layout_y="464dp"
+            android:background="@drawable/set"
+            android:text="设置" />
+
+</AbsoluteLayout>
