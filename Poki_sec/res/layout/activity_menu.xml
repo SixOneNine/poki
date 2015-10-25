@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gdcc.maketubo.activity.MenuActivity" 
+    android:background="@drawable/bg_menu">
+                                      
+
+        <Button
+            android:id="@+id/btnset"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/set"
+           
+            android:text="设置" />
+
+        <Button
+            android:id="@+id/btnesc"
+            android:layout_width="127dp"
+            android:layout_height="46dp"
+            android:layout_above="@+id/btnset"
+            android:layout_alignLeft="@+id/btnrec"
+            android:layout_marginBottom="58dp"
+            android:background="@drawable/button"
+            android:onClick="gameEsc"
+            android:text="退出" />
+
+        <Button
+            android:id="@+id/btnstr"
+            android:layout_width="127dp"
+            android:layout_height="46dp"
+            android:layout_above="@+id/btnrec"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="42dp"
+            android:background="@drawable/button"
+            android:onClick="gameStart"
+            android:text="开始" />
+
+        <Button
+            android:id="@+id/btnrec"
+            android:layout_width="127dp"
+            android:layout_height="46dp"
+            android:layout_above="@+id/btnesc"
+            android:layout_alignLeft="@+id/btnstr"
+            android:layout_marginBottom="42dp"
+            android:background="@drawable/button"
+            android:onClick="recordStart"
+            android:text="排行榜" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/set"
+            android:onClick="helpStart"
+            android:text="帮助" />
+
+</RelativeLayout>

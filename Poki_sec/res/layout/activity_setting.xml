@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="20.0dip" >
+
+        <AbsoluteLayout
+            android:layout_width="fill_parent"
+            android:layout_height="204dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_menu"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/negativeButton"
+                android:layout_width="114.0dip"
+                android:layout_height="40.0dip"
+                android:layout_marginLeft="20.0dip"
+                android:layout_x="78dp"
+                android:layout_y="118dp"
+                android:background="@drawable/button"
+                android:gravity="center"
+                android:text="退出" />
+
+            <Button
+                android:id="@+id/positiveButton"
+                android:layout_width="114.0dip"
+                android:layout_height="40.0dip"
+                android:layout_x="79dp"
+                android:layout_y="59dp"
+                android:background="@drawable/button"
+                android:gravity="center"
+                android:text="继续" />
+
+        </AbsoluteLayout>
+
+</FrameLayout>
